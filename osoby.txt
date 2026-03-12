@@ -3,5 +3,5 @@
 3	ivan	m	51
 4	anna	z	39
 5	jana	z	23
-6   igor    m   19
-7   viera   z   41
+6	igor	m	19
+7	viera	z	41

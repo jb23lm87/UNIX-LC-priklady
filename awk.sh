@@ -6,6 +6,7 @@ awk '/an/' osoby.txt
 awk '/\<an/' osoby.txt
 awk '/ an/' osoby.txt
 awk -F: '/student/{print $1,$6}' /etc/passwd
+ps aux |awk '{print $1,$2}'
 awk '{print $2;}' osoby.txt 
 awk '{print $2,"\t",$4;}' osoby.txt 
 awk '{print $2,$NF;}' osoby.txt 
