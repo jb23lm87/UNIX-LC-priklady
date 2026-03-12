@@ -32,4 +32,5 @@ echo "Regular expressions" | grep -E "[r-s]{1,}"
 
 echo "12:34" | sed -E 's/([0-9]{2})\:([0-9]{2})/It is \1 hours and \2 minutes/'
 
-egrep -i "\<an" osoby.txt
+grep -Ei "\<an" osoby.txt
+grep -Ei "na\>" osoby.txt
