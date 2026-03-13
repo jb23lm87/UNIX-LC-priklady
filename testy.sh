@@ -1,5 +1,6 @@
 #!/bin/bash
 # Testovanie existencie súborov pomocou rôznych príkazov a operátorov
+# /etc/kbash neexistuje, ale /etc/passwd existuje a je regulárnym súborom
 #
 echo -e "\ntest 1\nbudeme testovať či existuje regulárny súbor /bin/bash teda -f"
 [ -f /bin/bash ]

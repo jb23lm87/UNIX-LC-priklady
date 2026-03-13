@@ -7,7 +7,10 @@ done
 #
 #
 # vypíšem súbory v adresári /tmp
+POCET=0
 echo -e "\na teraz vypíšem súbory v adresári /tmp\n"
 for file in /tmp/*; do
 	echo -e "našiel som $file"
+	((POCET++))
 done
+echo -e "\n\tNapočítal som $POCET súborov.\n"
